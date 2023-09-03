@@ -1,6 +1,5 @@
 package com.desarrollodeaplicacionesmoviles.viewmodel
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -15,8 +14,6 @@ class MainViewModel : ViewModel() {
     fun comparar(): Unit {
         val str1 = _strings.value?.txt1 ?: ""
         val str2 = _strings.value?.txt2 ?: ""
-        Log.d("str1", str1)
-        Log.d("str2", str2)
         val result: String = if (_strings.value?.txt1.equals(_strings.value?.txt2))
             "Las palabras son iguales"
         else "Las palabras no son iguales"
