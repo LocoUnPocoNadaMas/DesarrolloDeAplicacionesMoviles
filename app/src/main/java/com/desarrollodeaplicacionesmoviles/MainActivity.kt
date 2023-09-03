@@ -2,11 +2,10 @@ package com.desarrollodeaplicacionesmoviles
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import androidx.activity.viewModels
 import androidx.core.widget.addTextChangedListener
 import com.desarrollodeaplicacionesmoviles.databinding.ActivityMainBinding
+import com.desarrollodeaplicacionesmoviles.viewmodel.MainViewModel
 
 class MainActivity : AppCompatActivity() {
 

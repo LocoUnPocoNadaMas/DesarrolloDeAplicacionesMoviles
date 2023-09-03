@@ -1,4 +1,4 @@
-package com.desarrollodeaplicacionesmoviles
+package com.desarrollodeaplicacionesmoviles.model
 
 data class MainUiState(
     var txt1: String = "",
