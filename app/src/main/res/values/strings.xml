@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DesarrolloDeAplicacionesMoviles</string>
+    <string name="box1">Ingrese una cadena de texto</string>
+    <string name="box2">Ingrese otra cadena de texto</string>
+    <string name="button">Comparar</string>
+    <string name="explanation">Escriba una cadena de texto en cada recuadro de texto y presione el botón</string>
 </resources>
